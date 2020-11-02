@@ -27,8 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2f5b99-7b0e-4db8-bdc9-9afde2806d47" name="Default Changelist" comment="Added PrimVSRef file with info on how Java Addresses work differently depending on data types.">
-      <change afterPath="$PROJECT_DIR$/out/production/Hello World/com/sarath/PrimVSRef.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sarath/PrimVSRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sarath/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
       <command value="ReferenceTypes" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimVSRef">
+  <component name="RunManager" selected="Application.Strings">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.sarath.Main" />
       <module name="Hello World" />
@@ -114,8 +113,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sarath.Strings" />
+      <module name="Hello World" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sarath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Strings" />
         <item itemvalue="Application.PrimVSRef" />
         <item itemvalue="Application.PrimitiveTypes" />
         <item itemvalue="Application.ReferenceTypes" />
@@ -139,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604326853111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added PrimVSRef file with info on how Java Addresses work differently depending on data types.">
+      <created>1604328565000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604328565000</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,46 +208,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="784" y="426" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604322861768" />
-    <state width="1323" height="143" key="GridCell.Tab.0.bottom" timestamp="1604328532382">
+    <state width="1323" height="143" key="GridCell.Tab.0.bottom" timestamp="1604329690025">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1877" height="227" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1604325605771">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="227" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1050@0.0.1920.1050" timestamp="1604325605771" />
-    <state width="1323" height="143" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604328532382" />
+    <state width="1323" height="143" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604329690025" />
     <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1604325598293" />
-    <state width="1323" height="143" key="GridCell.Tab.0.center" timestamp="1604328532382">
+    <state width="1323" height="143" key="GridCell.Tab.0.center" timestamp="1604329690025">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1877" height="227" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1604325605771">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="227" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1050@0.0.1920.1050" timestamp="1604325605771" />
-    <state width="1323" height="143" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604328532382" />
+    <state width="1323" height="143" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604329690025" />
     <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1604325598293" />
-    <state width="1323" height="143" key="GridCell.Tab.0.left" timestamp="1604328532382">
+    <state width="1323" height="143" key="GridCell.Tab.0.left" timestamp="1604329690025">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1877" height="227" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1604325605771">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="227" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1050@0.0.1920.1050" timestamp="1604325605771" />
-    <state width="1323" height="143" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604328532382" />
+    <state width="1323" height="143" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604329690025" />
     <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1604325598293" />
-    <state width="1323" height="143" key="GridCell.Tab.0.right" timestamp="1604328532382">
+    <state width="1323" height="143" key="GridCell.Tab.0.right" timestamp="1604329690025">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1877" height="227" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1604325605771">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="227" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1050@0.0.1920.1050" timestamp="1604325605771" />
-    <state width="1323" height="143" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604328532382" />
+    <state width="1323" height="143" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604329690025" />
     <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1604325598293" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1604326869722">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1604328599762">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1604326869722" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1604328599762" />
     <state x="438" y="171" width="672" height="476" key="run.anything.popup" timestamp="1604327263673">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
